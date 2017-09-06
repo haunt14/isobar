@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      layout="admin-1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link src="Hello_Isobar::js/default.js"/>
+        <css src="Hello_Isobar::css/default.css"/>
+    </head>
+    <body>
+        <referenceContainer name="header-wrapper">
+            <block class="Hello\Isobar\Block\Helloworld"
+                   name="helloisobar"
+                   template="helloworld.phtml" after="logo"/>
+        </referenceContainer>
+    </body>
+</page>
