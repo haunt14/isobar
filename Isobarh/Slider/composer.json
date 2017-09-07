@@ -1,0 +1,34 @@
+{
+  "name": "isobarh/slider",
+  "description":"isobar extension slider ",
+  "keywords": [
+    "magento 2",
+    "isobar extension slider"
+  ],
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+    "magento/module-backend": "100.0.*|100.1.*",
+    "magento/framework": "100.0.*|100.1.*"
+  },
+  "type": "magento2-module",
+  "version": "100.1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Hau NT",
+      "email": "hau.nguyen@isobar.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Isobarh\\Slider\\": ""
+    }
+  }
+}

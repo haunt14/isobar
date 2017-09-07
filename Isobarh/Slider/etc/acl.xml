@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Isobarh_Slider::bannerslider" title="Banner slider">
+                    <resource id="Isobarh_Slider::slider" title="Banner slider">
+                        <resource id="Isobarh_Slider::slider_create" title="Create"/>
+                        <resource id="Isobarh_Slider::fslider_edit" title="Edit" />
+                        <resource id="Isobarh_Slider::slider_delete" title="Delete"/>
+                    </resource>
+
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

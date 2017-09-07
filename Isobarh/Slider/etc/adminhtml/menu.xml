@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Isobarh_Slider::bannerslider" title="Banner slider" module="Isobarh_Slider" sortOrder="60" resource="Isobarh_Slider::bannerslider"/>
+        <add id="Isobarh_Slider::manbannerslider" title="Banner slider" module="Isobarh_Slider" sortOrder="61" parent="Isobarh_Slider::bannerslider"  resource="Isobarh_Slider::slider"/>
+        <add id="Isobarh_Slider::slider" title="Manage Sliders" module="Isobarh_Slider" sortOrder="62" parent="Isobarh_Slider::manbannerslider" action="phpcuong/faq" resource="Isobarh_Slider::slider"/>
+        <add id="Isobarh_Slider::banner" title="Manage Banners" module="Isobarh_Slider" sortOrder="62" parent="Isobarh_Slider::manbannerslider" action="phpcuong/faq" resource="Isobarh_Slider::slider"/>
+
+    </menu>
+</config>
